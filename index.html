@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Studio - 50+ Beautiful Animations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">CSS Animation Studio</h1>
+                <p class="subtitle">Discover, Preview & Copy 50+ Beautiful CSS Animations</p>
+                <div class="header-badge">
+                    <span>✨ Pure CSS • No JavaScript • Production Ready ✨</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="nav-buttons">
+                <button class="nav-btn active" data-category="all">
+                    All Animations <span class="count">50</span>
+                </button>
+                <button class="nav-btn" data-category="beginner">
+                    Beginner <span class="count">20</span>
+                </button>
+                <button class="nav-btn" data-category="intermediate">
+                    Intermediate <span class="count">20</span>
+                </button>
+                <button class="nav-btn" data-category="advanced">
+                    Advanced <span class="count">10</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Animation Grid -->
+        <main class="main">
+            <div class="animation-grid" id="animationGrid">
+                <!-- Animations will be populated by JavaScript -->
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with ❤️ using pure CSS animations • No external libraries required</p>
+        </footer>
+    </div>
+
+    <!-- Copy notification -->
+    <div class="copy-notification" id="copyNotification">
+        <span>✅ Code copied to clipboard!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
